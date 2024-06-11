@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send WhatsApp Message</title>
+
+
+
+    <style>
+        .whatsapp-button {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .whatsapp-button:hover {
+            background-color: #1ebd59;
+        }
+    </style>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<button class="whatsapp-button" onclick="sendWhatsAppMessage()">
+    Send WhatsApp Message
+</button>
+
+
+
+
+<script>
+    function sendWhatsAppMessage() {
+        const phoneNumber = "+966548247897"; // Replace with the recipient's phone number
+        const message = "Hello, I'd like to inquire about your services."; // Replace with your message
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(url, '_blank');
+    }
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>RFI Punch list Item</h2>
+<h2>(Vent Station-6 (13+527.06kp)) / (M-Vent Station-7 (14+572.05kp))</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Punch list Item</th>
+    <th style="width:40%;">RFI </th>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0526</td>
+    <td>RFI-C20-C-5203</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0527</td>
+    <td>RFI-C20-C-5204</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0529</td>
+    <td>RFI-C20-C-5205</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0530</td>
+    <td>RFI-C20-C-5206</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0531</td>
+    <td>RFI-C20-C-5207</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0532</td>
+    <td>RFI-C20-C-5208</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0533</td>
+    <td>RFI-C20-C-5209</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0534  </td>
+    <td>RFI-C20-C-5210</td>
+  </tr>
+
+  <tr>
+    <td>SA3-PLN-CE-0535</td>
+    <td>RFI-C20-C-5211</td>
+  </tr>
+
+
+  <tr>
+    <td>SA3-PLN-CE-0536</td>
+    <td>RFI-C20-C-5212</td>
+  </tr>
+
+
+  <tr>
+    <td>SA3-PLN-CE-0537</td>
+    <td>RFI-C20-C-5213</td>
+  </tr>
+
+
+
+  <tr>
+    <td>SA3-PLN-CE-0539</td>
+    <td>RFI-C20-C-5214</td>
+  </tr>
+
+
+
+  <tr>
+    <td>SA3-PLN-CE-0543</td>
+    <td>RFI-C20-C-5215</td>
+  </tr>
+
+
+
+
+  <tr>
+    <td>SA3-PLN-CE-0544</td>
+    <td>RFI-C20-C-5216</td>
+  </tr>
+
+
+  <tr>
+    <td>SA3-PLN-CE-0545</td>
+    <td>RFI-C20-C-5217</td>
+  </tr>
+
+
+  <tr>
+    <td>SA3-PLN-CE-0546</td>
+    <td>RFI-C20-C-5218</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0547</td>
+    <td>RFI-C20-C-5219</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0549</td>
+    <td>RFI-C20-C-5220</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0550</td>
+    <td>RFI-C20-C-5221</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0551</td>
+    <td>RFI-C20-C-5222</td>
+  </tr><tr>
+    <td>SA3-PLN-CE-0552</td>
+    <td>RFI-C20-C-5223</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0553</td>
+    <td>RFI-C20-C-5224</td>
+  </tr>
+  <tr>
+    <td>SA3-PLN-CE-0554</td>
+    <td>RFI-C20-C-5225</td>
+  </tr>
+
+
+  <tr>
+    <td>SA3-PLN-CE-0556</td>
+    <td>RFI-C20-C-5226</td>
+  </tr>
+
+
+
+  <tr>
+    <td>SA3-PLN-CE-0557</td>
+    <td>RFI-C20-C-5227</td>
+  </tr>
+
+
+
+  <tr>
+    <td>SA3-PLN-CE-0558</td>
+    <td>RFI-C20-C-5228</td>
+  </tr>
+
+
+    <tr>
+    <td>SA3-PLN-CE-0559</td>
+    <td>RFI-C20-C-5229</td>
+  </tr> 
+   <tr>
+    <td>SA3-PLN-CE-0560</td>
+    <td>RFI-C20-C-5230</td>
+  </tr> 
+   <tr>
+    <td>SA3-PLN-CE-0561</td>
+    <td>RFI-C20-C-5231</td>
+  </tr> 
+   <tr>
+    <td>SA3-PLN-CE-0562</td>
+    <td>RFI-C20-C-5232</td>
+  </tr> 
+   <tr>
+    <td>SA3-PLN-CE-0563</td>
+    <td>RFI-C20-C-5233</td>
+  </tr>  
+  <tr>
+    <td>SA3-PLN-CE-0564</td>
+    <td>RFI-C20-C-5234</td>
+  </tr> 
+   <tr>
+    <td>SA3-PLN-CE-0566</td>
+    <td>RFI-C20-C-5235</td>
+  </tr> 
+   <tr>
+    <td>SA3-PLN-CE-0551</td>
+    <td>AAAAAAA</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+</body>
+</html>
